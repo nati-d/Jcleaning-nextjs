@@ -95,7 +95,7 @@ function Testimonial() {
                     <div className="mt-6 text-lg italic font-light leading-8 text-gray-600">
                       {" "}
                       The increase in product sales is exponential and takes
-                      place gradually, it's really a very good job{" "}
+                      place gradually, its really a very good job{" "}
                     </div>
                   </div>
                 </section>
@@ -161,7 +161,7 @@ function Testimonial() {
                     <div className="mt-6 text-lg italic font-light leading-8 text-gray-600">
                       {" "}
                       The increase in product sales is exponential and takes
-                      place gradually, it's really a very good job{" "}
+                      place gradually, its really a very good job{" "}
                     </div>
                   </div>
                 </section>

@@ -7,7 +7,7 @@ function Contact() {
         <div className="flex flex-col w-full md:w-1/2">
           <div className="flex flex-col bg-slate-100 rounded-xl p-8">
             <h1 className="text-3xl font-semibold text-black mb-6">Contact Information</h1>
-            <p className="text-lg text-black mb-8">Say something to start and let's chat!</p>
+            <p className="text-lg text-black mb-8">Say something to start and lets chat!</p>
             
             <div className="flex items-center gap-5 text-base text-black">
               <img
