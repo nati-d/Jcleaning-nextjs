@@ -3,20 +3,20 @@ import * as React from "react";
 function ServiceComponent() {
   return (
     <div className="flex justify-center items-center self-stretch px-16 py-12 mt-32 w-full bg-slate-100 max-md:px-5 max-md:mt-10 max-md:max-w-full">
-      <div className="flex flex-col mt-20 mb-28 w-full max-w-[1194px] max-md:my-10 max-md:max-w-full">
-        <div className="max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-              <div className="text-6xl font-semibold tracking-wide text-black leading-[64px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
+      <div className="flex flex-col mt-20 mb-28 w-full max-w-[1194px] ">
+        <div className="w-full">
+          <div className="flex gap-5 flex-col lg:flex-row ">
+            <div className="flex flex-col w-full lg:w-6/12 ">
+              <div className="text-6xl text-center md:text-left font-semibold tracking-wide text-black leading-[64px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
                 Always Provide The Best Service
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-full lg:w-6/12 ">
               <div className="flex flex-col grow self-stretch my-auto tracking-wide max-md:mt-10 max-md:max-w-full">
-                <div className="text-3xl font-semibold leading-7 text-orange-400 max-md:max-w-full">
+                <div className="text-3xl font-semibold leading-7 text-orange-400 max-md:max-w-full text-center md:text-left">
                   Our Services
                 </div>
-                <div className="mt-8 text-xl leading-8 text-neutral-700 max-md:max-w-full">
+                <div className="mt-8 text-xl leading-8 text-neutral-700 max-md:max-w-full text-center md:text-left">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore{" "}
                 </div>
@@ -24,9 +24,9 @@ function ServiceComponent() {
             </div>
           </div>
         </div>
-        <div className="mx-9 mt-32 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-            <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+        <div className="mx-9 mt-32 ">
+          <div className="flex flex-col lg:flex-row gap-5 ">
+            <div className="flex flex-col w-full lg:w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow tracking-wide max-md:mt-10 items-center justify-center">
                 <img
                   loading="lazy"
@@ -42,7 +42,7 @@ function ServiceComponent() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-full lg:w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col self-stretch my-auto tracking-wide max-md:mt-10 items-center justify-center">
                 <img
                   loading="lazy"
@@ -58,7 +58,7 @@ function ServiceComponent() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-full lg:w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col self-stretch my-auto tracking-wide max-md:mt-10 items-center justify-center">
                 <img
                   loading="lazy"
@@ -74,7 +74,7 @@ function ServiceComponent() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-full lg:w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col self-stretch my-auto tracking-wide max-md:mt-10 justify-center items-center">
                 <img
                   loading="lazy"

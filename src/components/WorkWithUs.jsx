@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function WorkWithUs() {
   return (
-    <div className="flex overflow-hidden relative flex-col justify-center items-start self-stretch px-16 py-12 mt-32 w-full min-h-[544px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <div className="flex overflow-hidden relative flex-col justify-center items-start self-stretch md:px-16 py-12 mt-32 w-full min-h-[460px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <Image
         src="/vector.svg"
         alt=""
@@ -12,17 +12,17 @@ function WorkWithUs() {
         loading="lazy"
         dangerouslyAllowSVG
       />
-      <header className="flex relative flex-col mt-16 mb-12 ml-14 max-w-full w-[586px] max-md:my-10">
-        <h1 className="text-6xl font-bold tracking-wide text-gray-700 leading-[64px] max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
+      <header className="flex relative flex-col mt-16 mb-12 md:ml-14 max-w-full w-full lg:w-1/2 max-md:my-10">
+        <h1 className="text-6xl font-bold text-center md:text-left tracking-wide text-gray-700 leading-[64px] max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
           Are You Ready To Work With Us Now?
         </h1>
-        <p className="mt-16 text-lg leading-7 text-gray-600 max-md:mt-10 max-md:max-w-full">
+        <p className="mt-16 text-center md:text-left text-lg leading-7 text-gray-600 max-md:mt-10 max-md:max-w-full">
           What do you think after seeing the good response from our previous
           customers
         </p>
-        <div className="flex gap-5 justify-between items-center mt-12 text-base max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+        <div className="flex gap-5 justify-between m-auto md:mx-0 w-1/2  items-center mt-12 text-base ">
           <button
-            className="grow justify-center items-center self-stretch px-16 py-7 font-semibold tracking-wide whitespace-nowrap bg-amber-400 leading-[100%] rounded-[30px] text-neutral-700 max-md:px-5"
+            className="grow justify-center items-center px-16 py-7 font-semibold tracking-wide whitespace-nowrap bg-amber-400 leading-[100%] rounded-[30px] text-neutral-700 max-md:px-5"
             role="button"
           >
             Order Now
@@ -36,7 +36,7 @@ function WorkWithUs() {
           />
           <a
             href="#"
-            className="flex-auto self-stretch my-auto tracking-wide leading-[175%] text-zinc-800"
+            className="tracking-wide leading-[175%] text-zinc-800"
             aria-label="Watch Demo"
             role="button"
           >

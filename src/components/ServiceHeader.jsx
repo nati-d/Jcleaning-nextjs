@@ -5,7 +5,7 @@ import React from "react";
 function ServiceHeader() {
   const paths = usePathname();
   return (
-    <div className="flex  relative flex-col items-center  px-20 py-12 w-full font-semibold text-white h-max max-md:px-5 max-md:max-w-full">
+    <div className="flex relative -z-20 items-center justify-center  px-20 h-[30vh] md:h-[50vh] lg:h-[70vh] w-full font-semibold text-white  max-md:px-5 max-md:max-w-full">
       <img
         loading="lazy"
         srcSet="https://images.pexels.com/photos/4239007/pexels-photo-4239007.jpeg?auto=compress&cs=tinysrgb&w=600"
