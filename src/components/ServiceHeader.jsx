@@ -1,15 +1,22 @@
 "use client"
 import { usePathname } from "next/navigation";
-import React from "react";
+import React, {useState} from "react";
 
 function ServiceHeader() {
   const paths = usePathname();
+  const [imageLoaded, setImageLoaded] = useState(false)
+
+  const handleImageLoaded = ()=> {
+    setImageLoaded(true)
+  }
+
   return (
-    <div className="flex  relative flex-col items-center  px-20 py-12 w-full font-semibold text-white h-max max-md:px-5 max-md:max-w-full">
+    <div className="flex relative -z-20 items-center justify-center  px-20 h-[30vh] md:h-[50vh] lg:h-[70vh] w-full font-semibold text-white  max-md:px-5 max-md:max-w-full">
       <img
         loading="lazy"
-        srcSet="https://images.pexels.com/photos/4239007/pexels-photo-4239007.jpeg?auto=compress&cs=tinysrgb&w=600"
+        srcSet="https://images.pexels.com/photos/4098761/pexels-photo-4098761.jpeg?auto=compress&cs=tinysrgb&w=600"
         className="object-cover absolute inset-0 size-full"
+        onLoad={handleImageLoaded}
       />
 
       <header
