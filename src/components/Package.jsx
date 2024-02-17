@@ -24,7 +24,6 @@ const packages = [
 function Package() {
   return (
     <>
-      {/* Your first section */}
       <div className="px-5 mt-32 w-full max-w-[1200px] m-auto ">
         <div className="flex gap-5 flex-col md:flex-row ">
           <div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
@@ -45,7 +44,6 @@ function Package() {
         </div>
       </div>
 
-      {/* Your second section with dynamic rendering */}
       <div className="px-5 mt-24 w-full max-w-[1200px] m-auto ">
         <div className="flex gap-5 flex-wrap items-center justify-center ">
           {packages.map((pkg, index) => (

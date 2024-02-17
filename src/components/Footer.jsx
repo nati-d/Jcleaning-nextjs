@@ -34,7 +34,7 @@ const Footer = () => {
 
   return (
     <div className="app h-max mt-20 border  flex items-end justify-center font-poppins">
-      <div className="py-28 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 px-10 bg-slate-100 text-black w-full p-4 relative">
+      <div className="py-28 grid lg:grid-cols-3 gap-20 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 px-10 bg-slate-100 text-black w-full p-4 relative">
         <div className=" space-y-5  ">
           <div className="flex items-center justify-start flex-col">
             <span className="text-3xl self-start font-bold  text-black">
