@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="mx-2 grid w-full py-5 sm:py-0 grid-cols-2 ">
           {links.map((col, index) => {
             return (
-              <ul className={``}>
+              <ul key={index}>
                 {col.map((link, index) => {
                   return (
                     <li
