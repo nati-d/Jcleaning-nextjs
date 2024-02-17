@@ -38,11 +38,11 @@ function Hero() {
             </div>
           </div>
         </nav>
-        <div className="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full">
+        <div className="flex flex-col ml-5 w-full lg:w-[59%] ">
           <img
             loading="lazy"
             srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b756f6bad103c0755e363d790ba1ddaaffb93e342d99fe4721c070fd70ce4b1a?apiKey=2d54b9a4fac9494c8ef151df24863964&"alt="Cleaning services"
-            className="grow w-full rounded-none aspect-[0.97] max-md:mt-2 max-md:max-w-full"
+            className="grow w-full rounded-none aspect-[0.97] "
           />
         </div>
       </header>

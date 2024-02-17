@@ -19,7 +19,7 @@ function Team() {
         </div>
       </section>
         <section className="w-full max-w-[1200px] h-max px-10 flex gap-4 m-auto mt-16 flex-col md:flex-row items-center justify-center md:justify-around">
-          <div className="overflow-hidden rounded-md border">
+          <div className="overflow-hidden rounded-xl ">
             <Image
               src="https://images.pexels.com/photos/6196684/pexels-photo-6196684.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="team"
@@ -27,7 +27,7 @@ function Team() {
               width={400}
             />
           </div>
-          <div className="overflow-hidden rounded-md">
+          <div className="overflow-hidden rounded-xl">
             <Image
               src="https://images.pexels.com/photos/9462636/pexels-photo-9462636.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="team"
@@ -35,7 +35,7 @@ function Team() {
               width={400}
             />
           </div>
-          <div className="overflow-hidden rounded-md">
+          <div className="overflow-hidden rounded-xl">
             <Image
               src="https://images.pexels.com/photos/9462338/pexels-photo-9462338.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="team"

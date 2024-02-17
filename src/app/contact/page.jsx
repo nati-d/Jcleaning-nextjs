@@ -4,7 +4,6 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
 function Contact() {
-  // Yup Validation Schema
   const validationSchema = Yup.object().shape({
     firstName: Yup.string().required('First Name is required'),
     lastName: Yup.string().required('Last Name is required'),
@@ -13,7 +12,6 @@ function Contact() {
     message: Yup.string().required('Message is required'),
   });
 
-  // Formik Hook
   const formik = useFormik({
     initialValues: {
       firstName: '',
@@ -24,7 +22,6 @@ function Contact() {
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
-      // Handle form submission logic here
       console.log(values);
     },
   });

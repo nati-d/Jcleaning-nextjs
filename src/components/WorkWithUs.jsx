@@ -10,7 +10,6 @@ function WorkWithUs() {
         layout="fill"
         objectFit="cover"
         loading="lazy"
-        dangerouslyAllowSVG
       />
       <header className="flex relative flex-col mt-16 mb-12 md:ml-14 max-w-full w-full lg:w-1/2 max-md:my-10">
         <h1 className="text-6xl font-bold text-center md:text-left tracking-wide text-gray-700 leading-[64px] max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
@@ -32,7 +31,6 @@ function WorkWithUs() {
                 alt=""
             width={39}
             height={39}
-            dangerouslyAllowSVG
           />
           <a
             href="#"

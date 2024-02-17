@@ -7,7 +7,7 @@ const AboutUsPage = () => {
       <ServiceHeader />
       <div className="flex flex-col gap-16 px-5 md:px-10">
         <div className="flex flex-col md:flex-row gap-5">
-          <div className="bg-slate-100 w-full md:w-1/2 my-5 rounded-lg p-3 flex flex-col justify-between">
+          <div className="bg-slate-100 w-full md:w-1/2 my-5 rounded-xl p-3 flex flex-col justify-between">
             <div>
               <p className=" text-xl font-semibold text-orange-400 mb-5">
                 How it Started
@@ -31,9 +31,9 @@ const AboutUsPage = () => {
             <img
               src="https://images.pexels.com/photos/13723036/pexels-photo-13723036.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
-              className="w-full h-[400px] object-cover rounded-lg"
+              className="w-full h-[400px] object-cover rounded-xl"
             />
-            <div className="flex flex-wrap mt-5 space-y-5 bg-slate-100 w-full py-10 rounded-lg">
+            <div className="flex flex-wrap mt-5 space-y-5 bg-slate-100 w-full py-10 rounded-xl">
               <div className="w-1/2 flex flex-col items-center justify-center">
                 <h1 className="text-4xl font-bold">2</h1>
                 <p className="text-sm text-gray-400 mt-2">

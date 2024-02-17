@@ -2,7 +2,7 @@ import * as React from "react";
 
 function CompanyInfo() {
   return (
-    <div className="mt-36 w-full max-w-[1199px] m-auto max-md:mt-10 max-md:max-w-full">
+    <div className="mt-36 w-full px-4 max-w-[1199px] m-auto max-md:mt-10 max-md:max-w-full">
       <div className="flex gap-5 flex-col lg:flex-row">
         <div className="flex flex-col w-full lg:w-[59%] ">
           <img

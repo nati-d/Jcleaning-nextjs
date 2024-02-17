@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="hidden md:flex gap-5 justify-between items-center text-regular font-medium text-neutral-900">
         {links.map((link) => (
 
-          <Link href={link.path} key={link.name} className={` ${link.path===paths ? 'py-2 px-4 rounded-sm font-semibold bg-sky-600 text-white' : 'hover:text-sky-600 '} `}  >
+          <Link href={link.path} key={link.name} className={` ${link.path===paths ? 'py-2 px-4 rounded-xl font-semibold bg-sky-600 text-white' : 'hover:text-sky-600  '} `}  >
             {link.name}
           </Link>
         ))}
@@ -52,7 +52,7 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-slate-100 ease-in-out duration-500'
+              ? 'fixed md:hidden left-0 top-0 bottom-0 right-0 w-[80%] h-full border-r border-r-gray-900 bg-slate-100 ease-in-out duration-500'
               : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
           }
         >
