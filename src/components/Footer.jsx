@@ -23,7 +23,7 @@ const Footer = () => {
       { label: "About Us", path: "/about" },
     ],
     [
-      { label: "Support", key: "header-2",path:'/' },
+      { label: "Community", key: "header-2",path:'/' },
       { label: "Help center", path: "/" },
       { label: "Terms of service", path: "/" },
       { label: "Legal", path: "item-2-3" },
@@ -38,7 +38,7 @@ const Footer = () => {
         <div className=" space-y-5  ">
           <div className="flex items-center justify-start flex-col">
             <span className="text-3xl self-start font-bold  text-black">
-              J CLEANING LLC
+              J CLEANING Solutions
             </span>
             <p className="mt-4">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -46,7 +46,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="infos text-gray-700">
-            <span>Copyright © 2020 J CLEANING LLC.</span>
+            <span>Copyright © 2020 J CLEANING Solutions.</span>
             <span>All rights reserved</span>
           </div>
         </div>

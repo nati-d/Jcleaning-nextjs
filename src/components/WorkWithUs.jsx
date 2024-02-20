@@ -24,22 +24,8 @@ function WorkWithUs() {
             className="grow justify-center items-center px-16 py-7 font-semibold tracking-wide whitespace-nowrap bg-amber-400 leading-[100%] rounded-[30px] text-neutral-700 max-md:px-5"
             role="button"
           >
-            Order Now
+            Request a Quote
           </button>
-          <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/514060022908b837eb343992a3a047e50a2a6ed6b859b7ebc38b6e93fab1e00c?apiKey=2d54b9a4fac9494c8ef151df24863964&"
-                alt=""
-            width={39}
-            height={39}
-          />
-          <a
-            href="#"
-            className="tracking-wide leading-[175%] text-zinc-800"
-            aria-label="Watch Demo"
-            role="button"
-          >
-            Watch Demo
-          </a>
         </div>
       </header>
     </div>

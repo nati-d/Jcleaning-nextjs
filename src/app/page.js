@@ -2,6 +2,7 @@ import CompanyInfo from '@/components/CompanyInfo'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Package from '@/components/Package'
+import RequestQuoteForm from '@/components/RequestQuoteForm'
 import ServiceComponent from '@/components/ServiceComponent'
 import Team from '@/components/Team'
 import Testimonial from '@/components/Testimonials'
@@ -15,7 +16,8 @@ const page = () => {
       <CompanyInfo/>
       <ServiceComponent/>
       <Team/>
-      <Package/>
+      {/* <Package/> */}
+      <RequestQuoteForm/>
       <Testimonial/>
       <WorkWithUs/>
     </div>
