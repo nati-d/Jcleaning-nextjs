@@ -4,8 +4,8 @@ import * as React from "react";
 function Team() {
   return (
     <>
-      <section className="flex flex-col lg:flex-row gap-5 justify-between items-start px-5 mt-32 w-full max-w-[1200px] m-auto  ">
-        <header className="text-center w-full lg:w-1/2 lg:text-left text-5xl font-semibold tracking-wide leading-10 text-neutral-900 ">
+      <section className="flex flex-col lg:flex-row gap-5 justify-between items-start px-4 mt-10 md:mt-20 lg:mt-32 w-full  m-auto  ">
+        <header className="text-center w-full lg:w-1/2 lg:text-left text-4xl lg:text-6xl font-semibold tracking-wide leading-10 text-neutral-900 ">
           Our Best Team Ever
         </header>
         <div className="flex flex-col w-full lg:w-1/2 flex-1 mt-1.5 text-base ">
@@ -18,7 +18,7 @@ function Team() {
           </h2>
         </div>
       </section>
-        <section className="w-full max-w-[1200px] h-max px-10 flex gap-4 m-auto mt-16 flex-col md:flex-row items-center justify-center md:justify-around">
+        <section className="w-full  h-max px-4 flex gap-4 m-auto mt-16 flex-col md:flex-row items-center justify-center md:justify-around">
           <div className="overflow-hidden rounded-xl ">
             <Image
               src="https://images.pexels.com/photos/6196684/pexels-photo-6196684.jpeg?auto=compress&cs=tinysrgb&w=600"

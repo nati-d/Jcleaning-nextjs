@@ -5,7 +5,7 @@ const AboutUsPage = () => {
   return (
     <>
       <ServiceHeader />
-      <div className="flex flex-col gap-16 px-5 md:px-10">
+      <div className="flex w-full lg:max-w-[1500px] m-auto overflow-hidden flex-col gap-16 px-5 md:px-10">
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="bg-slate-100 w-full lg:w-1/2 my-5 rounded-xl p-3 flex flex-col justify-between">
             <div>

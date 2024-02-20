@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function CompanyInfo() {
   return (
-    <div className="mt-36 w-full lg:max-w-[1200px] m-auto lg:px-4 px-16  ">
+    <div className="mt-10 md:mt-20 lg:mt-36 w-full m-auto px-4   ">
       <div className="flex gap-5 flex-col lg:flex-row">
         <div className="flex flex-col w-full lg:w-[50%] ">
           <Image
@@ -20,7 +20,7 @@ function CompanyInfo() {
               <h1 className="text-center lg:text-left text-4xl font-semibold leading-10 ">
                 We Are Very Experienced In Cleaning Services
               </h1>
-              <div className="mt-8 text-lg text-left tracking-wide leading-7 text-zinc-800 ">
+              <div className="mt-8 text-lg text-left tracking-wide  text-zinc-800 ">
                 Our company places a high emphasis on customer satisfaction,
                 employing various strategies, loyalty programs, and quality
                 assessments to consistently meet our objectives.
@@ -36,7 +36,7 @@ function CompanyInfo() {
                 <img
                   loading="lazy"
                   src="/check.png"
-                  className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px]"
+                  className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px] hidden md:flex"
                 />
                 <div className="self-end mt-3.5 text-lg text-justify tracking-wide leading-7  text-zinc-800">
                   Embracing a culture of ownership, we empower our team to take
@@ -51,11 +51,11 @@ function CompanyInfo() {
                   Building Lasting Connections
                 </div>
               </div>
-              <div className="flex gap-3">
+              <div className="flex md:gap-3">
                 <img
                   loading="lazy"
                   src="/check.png"
-                  className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px]"
+                  className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px] hidden md:flex"
                 />
                 <div className="self-end mt-3.5 text-justify text-lg tracking-wide leading-7 text-zinc-800">
                   Its a commitment. We forge strong connections with our
@@ -74,7 +74,7 @@ function CompanyInfo() {
                   <img
                     loading="lazy"
                     src="/check.png"
-                    className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px]"
+                    className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px] hidden md:flex"
                   />
                   <div className="self-end mt-3.5 text-lg text-justify tracking-wide leading-7 text-zinc-800">
                     In our workspace, respect and professionalism are not just
