@@ -11,7 +11,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='w-full overflow-hidden'>
+    <div className='w-full lg:max-w-[1500px] m-auto overflow-hidden'>
       <Hero/>
       <CompanyInfo/>
       <ServiceComponent/>

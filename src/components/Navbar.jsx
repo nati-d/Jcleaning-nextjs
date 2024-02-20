@@ -15,6 +15,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -43,8 +44,10 @@ const Navbar = () => {
   const paths = usePathname();
   return (
     <>
-      <div className="w-full bg-slate-100 py-4 md:px-20 flex justify-between px-6 items-center z-100">
-        <h1 className="text-4xl font-semibold text-sky-600">J CLEANING SOLUTIONS</h1>
+      <div className="w-full lg:max-w-[1500px] m-auto bg-slate-100 py-4 px-4 flex justify-between items-center z-100">
+        <div>
+          <Image src="/logo.jpg" width={50} height={50} alt=""/>
+        </div>
         <div className="hidden md:flex gap-5 justify-between items-center text-regular font-medium text-neutral-900">
           {links.map((link) => (
             <Link

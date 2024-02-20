@@ -31,32 +31,32 @@ const testimonials = [
 function Testimonial() {
   return (
     <>
-      <section className="px-5 mt-32 w-full max-w-[1200px] m-auto max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-          <div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
-            <h1 className="text-6xl text-center md:text-left font-semibold text-gray-700 leading-[64px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
+      <section className="px-4 mt-10 md:mt-20 lg:mt-32 w-full m-auto">
+        <div className="flex gap-5 flex-col md:flex-row  ">
+          <div className="flex flex-col w-full lg:w-[56%] ">
+            <h1 className="text-4xl lg:text-6xl text-center md:text-left font-semibold text-gray-700 ">
               They Satisfied With Our Service
             </h1>
           </div>
-          <div className="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col tracking-wide max-md:mt-10 max-md:max-w-full">
-              <h2 className="text-3xl text-center md:text-left font-semibold text-orange-400 max-md:max-w-full">
+          <div className="flex flex-col  w-full lg:w-[44%] ">
+            <div className="flex flex-col tracking-wide ">
+              <h2 className="text-3xl text-center md:text-left font-semibold text-orange-400 ">
                 Testimonials
               </h2>
-              <p className="mt-6 text-lg text-center md:text-left leading-7 text-gray-600 max-md:max-w-full">
+              <p className="mt-6 text-lg text-center md:text-left leading-7 text-gray-600 ">
                 Have many related needs, we present a suitable package for your needs
               </p>
             </div>
           </div>
         </div>
       </section>
-      <div className="px-20 mt-24 w-full max-w-[1200px] m-auto max-md:mt-10 max-md:max-w-full">
-        <header className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+      <div className="mt-10 md:mt-16 lg:mt-24 w-full mx-auto ">
+        <div className="flex gap-5 ">
           <Carousel>
-            <CarouselContent className="w-full">
+            <CarouselContent className="">
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="sm:basis-full md:basis-1/2 lg:basis-1/3">
-                  <section className="flex flex-col w-full max-md:ml-0 max-md:w-full">
+                  <section className="flex flex-col w-full ">
                     <div className="flex flex-col grow px-8 py-10 mx-auto w-full bg-slate-100 rounded-[32px] max-md:px-5 max-md:mt-8">
                       <div className="flex gap-3 justify-between">
                         <img
@@ -86,7 +86,7 @@ function Testimonial() {
             <CarouselPrevious />
             <CarouselNext />
           </Carousel>
-        </header>
+        </div>
       </div>
     </>
   );

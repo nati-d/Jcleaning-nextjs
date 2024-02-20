@@ -31,18 +31,18 @@ const services = [
 
 function ServiceComponent() {
   return (
-    <div className="flex justify-center items-center self-stretch px-16 py-12 mt-32 w-full bg-slate-100 ">
-      <div className="flex flex-col mt-20 mb-28 w-full  ">
+    <div className="flex justify-center items-center px-4 py-12 mt-10 md:mt-20 lg:mt-32 w-full bg-slate-100 ">
+      <div className="flex flex-col md:mt-20 md:mb-28 w-full  ">
         <div className="w-full">
           <div className="flex gap-5 flex-col lg:flex-row ">
             <div className="flex flex-col w-full lg:w-6/12 ">
-              <div className="text-6xl text-center md:text-left font-semibold tracking-wide text-black leading-[64px] ">
+              <div className="text-4xl md:text-4xl lg:text-6xl text-center md:text-left font-semibold  text-black  ">
                 Always Provide The Best Service
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-full lg:w-6/12 ">
-              <div className="flex flex-col grow self-stretch my-auto tracking-wide max-md:mt-10 ">
-                <div className="text-3xl font-semibold leading-7 text-orange-400  text-center md:text-left">
+            <div className="flex flex-col md:ml-5 w-full m-auto lg:w-6/12 ">
+              <div className="flex flex-col">
+                <div className="text-2xl md:text-3xl font-semibold leading-7 text-orange-400  text-center md:text-left">
                   Our Services
                 </div>
                 <div className="mt-8 text-xl leading-8 text-neutral-700  text-center md:text-left">
@@ -53,7 +53,7 @@ function ServiceComponent() {
             </div>
           </div>
         </div>
-        <div className="mx-9 lg:mx-0 mt-32 ">
+        <div className=" lg:mx-0 mt-6 md:mt-32 ">
           <div className="flex flex-col flex-wrap lg:flex-row">
             {services.map((service, index) => (
               <div key={index} className="flex py-5 flex-col w-full lg:w-1/4 hover:bg-sky-200 rounded-xl p-5">
