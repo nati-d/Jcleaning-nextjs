@@ -58,7 +58,7 @@ function CompanyInfo() {
                   className="my-auto aspect-[1] stroke-[2px] stroke-sky-600 w-[30px]"
                 />
                 <div className="self-end mt-3.5 text-justify text-lg tracking-wide leading-7 text-zinc-800">
-                  It's a commitment. We forge strong connections with our
+                  Its a commitment. We forge strong connections with our
                   customers and staff, fostering trust and long-term
                   partnerships built on a foundation of dedication and mutual
                   respect.
