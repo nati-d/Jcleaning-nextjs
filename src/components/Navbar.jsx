@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full bg-slate-100 py-4 md:px-20 flex justify-between px-6 items-center z-100">
-        <h1 className="text-4xl font-semibold text-sky-600">J CLEANING LLC</h1>
+        <h1 className="text-4xl font-semibold text-sky-600">J CLEANING SOLUTIONS</h1>
         <div className="hidden md:flex gap-5 justify-between items-center text-regular font-medium text-neutral-900">
           {links.map((link) => (
             <Link
@@ -52,7 +52,7 @@ const Navbar = () => {
               key={link.name}
               className={` ${
                 link.path === paths
-                  ? "py-2 px-4 rounded-xl font-semibold bg-sky-600 text-white"
+                  ? "py-2 px-4 font-semibold border-b-4 border-sky-600"
                   : "hover:text-sky-600  "
               } `}
             >
@@ -66,9 +66,7 @@ const Navbar = () => {
             <Button className="flex md:hidden"><AiOutlineMenu size={30}/></Button>
           </SheetTrigger>
           <SheetContent className="bg-slate-100" side = "left">
-            {/* <SheetHeader>
-              <SheetTitle>J CLEANING LLC</SheetTitle>
-            </SheetHeader> */}
+            
             <div className="grid gap-4 py-4">
               <div className="grid grid-cols-4 items-center gap-4"></div>
               <div className="flex flex-col  gap-8 text-lg font-medium text-neutral-900">

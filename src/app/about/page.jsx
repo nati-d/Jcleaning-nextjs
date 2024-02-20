@@ -6,28 +6,36 @@ const AboutUsPage = () => {
     <>
       <ServiceHeader />
       <div className="flex flex-col gap-16 px-5 md:px-10">
-        <div className="flex flex-col md:flex-row gap-5">
-          <div className="bg-slate-100 w-full md:w-1/2 my-5 rounded-xl p-3 flex flex-col justify-between">
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className="bg-slate-100 w-full lg:w-1/2 my-5 rounded-xl p-3 flex flex-col justify-between">
             <div>
               <p className=" text-xl font-semibold text-orange-400 mb-5">
                 How it Started
               </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
+              <h1 className="text-4xl md:text-5xl text-center md:text-left lg:text-6xl font-extrabold mb-6">
                 Our Dream is Global Cleaning Transformation
               </h1>
             </div>
-            <p className="text-black text-base mb-10 text-justify md:text-left">
-              Maintaining a pristine and organized office environment is crucial
-              for a productive workplace. Our office cleaning services encompass
-              a comprehensive approach to cleanliness. Our dedicated team
-              ensures thorough dusting and wiping of desks, chairs, and
-              surfaces. We handle vacuuming and mopping of floors with
-              precision, leaving your office space spotless. Trash removal and
-              recycling are part of our routine, contributing to an eco-friendly
-              workspace.
+            <p className="text-black  text-base mb-10 text-justify ">
+              Customer satisfaction stands as a central pillar of their mission,
+              underscoring their commitment to excellence in residential and
+              commercial cleaning services. They actively deploy customer
+              service strategies, aiming to establish enduring connections with
+              their clientele. By instituting innovative loyalty programs and
+              conducting frequent quality assessments, their goal is to surpass
+              expectations and achieve customer-centric objectives, ensuring a
+              gratifying experience for all. In the realm of residential and
+              commercial cleaning services, their distinct approach revolves
+              around prioritizing customer satisfaction as a cornerstone
+              objective. Through the thoughtful application of customer service
+              strategies, the team endeavors to build and strengthen connections
+              with clients. Loyalty programs and rigorous quality assessments
+              are integral components of their commitment to surpassing
+              expectations, ensuring a tailored and exceptional experience for
+              each residential and commercial client.
             </p>
           </div>
-          <div className="w-full md:w-1/2 flex flex-col items-center my-5">
+          <div className="w-full lg:w-1/2 flex flex-col items-center my-5">
             <img
               src="https://images.pexels.com/photos/13723036/pexels-photo-13723036.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
@@ -66,11 +74,13 @@ const AboutUsPage = () => {
               </h1>
             </div>
             <p className="text-black text-base mb-10 mt-5 text-justify md:text-left">
-              Striving to be the foremost cleaning service provider, we
-              envision a future where every home and business enjoys a
-              pristine and healthy environment. Our commitment lies in setting
-              industry standards, ensuring customer satisfaction, and
-              contributing to a cleaner, greener world.
+              Our mission is to be a leading provider of residential and
+              commercial cleaning services, placing customer satisfaction at the
+              forefront of our endeavors. We are committed to delivering
+              excellence through innovative cleaning solutions, customer-centric
+              strategies, and unwavering dedication to quality. Our goal is to
+              establish lasting connections with our clientele, creating a clean
+              and welcoming environment that exceeds expectations.
             </p>
           </div>
           <div className="w-full md:w-1/2">
@@ -83,14 +93,13 @@ const AboutUsPage = () => {
               </h1>
             </div>
             <p className="text-black text-base mb-10 mt-5 text-justify md:text-left">
-              At J Cleaning LLC, our mission is to provide
-              unparalleled cleaning services tailored to the unique needs of
-              our clients. We are dedicated to delivering meticulous and
-              eco-friendly solutions, fostering a safe and hygienic space for
-              our customers. Through continuous innovation, professional
-              excellence, and a commitment to sustainability, we aim to exceed
-              expectations and build lasting relationships with our valued
-              clients.
+              At J Cleaning Solutions, our mission is to provide unparalleled cleaning
+              services tailored to the unique needs of our clients. We are
+              dedicated to delivering meticulous and eco-friendly solutions,
+              fostering a safe and hygienic space for our customers. Through
+              continuous innovation, professional excellence, and a commitment
+              to sustainability, we aim to exceed expectations and build lasting
+              relationships with our valued clients.
             </p>
           </div>
         </div>
