@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import SEO from "./SEO";
 
 const testimonials = [
   {
@@ -66,12 +67,6 @@ function Testimonial() {
                   key={index}
                   className="sm:basis-full md:basis-1/2 lg:basis-1/3"
                 >
-                  <SEO
-                    title={testimonial.role}
-                    description={testimonial.quote}
-                    url="https://jcleaning.netlify.app/"
-                  />
-
                   <section className="flex flex-col w-full ">
                     <div className="flex flex-col grow px-8 py-10 mx-auto w-full bg-slate-100 rounded-[32px] max-md:px-5 max-md:mt-8">
                       <div className="flex gap-3 justify-between">

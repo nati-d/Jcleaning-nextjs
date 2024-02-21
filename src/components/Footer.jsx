@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="w-full px-6 lg:max-w-[1500px] m-auto overflow-hidden h-max mt-20 bg-slate-100 py-10 flex flex-col gap-10">
       <div className=" flex flex-col md:flex-row justify-between gap-10">
         <div className="flex flex-col justify-between gap-10 w-full md:w-1/3">
-        <div>
-          <Image src="/logo.jpg" width={150} height={150} alt=""/>
-        </div>
+          <div>
+            <Image src="/logo.jpg" width={150} height={150} alt="" />
+          </div>
           <div className="flex gap-5">
             <span>
               <FaInstagram size={30} />
@@ -97,10 +97,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-        {/* Copyright Section */}
       </div>
-        <div className="w-full mt-8 text-center text-gray-500 text-sm">
+      {/* Copyright Section */}
+      <div className="w-full mt-8 text-center text-gray-500 text-sm">
         &copy; 2024 J Cleaning Solution. All rights reserved.
       </div>
     </div>

@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import ServiceHeader from "@/components/ServiceHeader";
 import React from "react";
 

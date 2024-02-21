@@ -1,16 +1,17 @@
 // components/SEO.js
 
 import Head from "next/head";
-import {thumbnail} from '/thumbnail.webp'
+import { thumbnail } from '../../public/thumbnail.webp';
 
 const SEO = ({ title, description, url }) => {
+  const img = `${url}${thumbnail}`;
   const structuredData = {
     "@context": "http://schema.org",
     "@type": "Business",
     name: "J Cleaning Solutions",
     description: description,
     url: url,
-    image: ogImage,
+    image: img,
     address: {
       "@type": "PostalAddress",
       streetAddress: "7603 Finns Ln Lanham, MD 207006-1219 ",
@@ -31,13 +32,13 @@ const SEO = ({ title, description, url }) => {
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content={thumbnail} />
+      <meta property="og:image" content={img} />
       
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:url" content={url} />
-      <meta name="twitter:image" content={thumbnail} />
+      <meta name="twitter:image" content={img} />
       
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <script

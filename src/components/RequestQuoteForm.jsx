@@ -46,7 +46,7 @@ function RequestQuoteForm() {
         <form onSubmit={formik.handleSubmit}>
           <div className="flex flex-col w-full  ">
             <div className="flex flex-col font-medium mt-8 md:mt-0">
-              <div className="flex flex-col  gap-5 mb-6">
+              <div className="flex flex-col  gap-2 mb-6">
                 <div className="flex flex-col flex-1">
                   <label className="text-regular md:text-xl leading-5 text-black">
                     First Name
@@ -71,7 +71,9 @@ function RequestQuoteForm() {
                 </div>
 
                 <div className="flex flex-col flex-1">
-                  <label className="text-regular md:text-xl leading-5 text-black">Email</label>
+                  <label className="text-regular md:text-xl leading-5 text-black">
+                    Email
+                  </label>
                   <input
                     type="text"
                     className={`border py-4 h-14 rounded-xl mt-3 px-3 focus:outline-none focus:ring-1 focus:ring-sky-600 ${
@@ -141,7 +143,7 @@ function RequestQuoteForm() {
                     Select Good Times for Service
                   </label>
                   <div className="flex flex-col gap-2 mt-3.5">
-                    <label classname="mr-4">
+                    <div className="flex gap-2">
                       <input
                         type="radio"
                         name="selectedTime"
@@ -149,9 +151,9 @@ function RequestQuoteForm() {
                         checked={formik.values.selectedTime === "earlyMorning"}
                         onChange={formik.handleChange}
                       />
-                      Early Morning
-                    </label>
-                    <label classname="mr-4">
+                      <label classname="mr-4">Early Morning</label>
+                    </div>
+                    <div className="flex gap-2">
                       <input
                         type="radio"
                         name="selectedTime"
@@ -159,9 +161,9 @@ function RequestQuoteForm() {
                         checked={formik.values.selectedTime === "morning"}
                         onChange={formik.handleChange}
                       />
-                      Morning
-                    </label>
-                    <label classname="mr-4">
+                      <label classname="mr-4">Morning</label>
+                    </div>
+                    <div className="flex gap-2">
                       <input
                         type="radio"
                         name="selectedTime"
@@ -169,9 +171,9 @@ function RequestQuoteForm() {
                         checked={formik.values.selectedTime === "afternoon"}
                         onChange={formik.handleChange}
                       />
-                      Afternoon
-                    </label>
-                    <label classname="mr-4">
+                      <label classname="mr-4">Afternoon</label>
+                    </div>
+                    <div className="flex gap-2">
                       <input
                         type="radio"
                         name="selectedTime"
@@ -179,9 +181,9 @@ function RequestQuoteForm() {
                         checked={formik.values.selectedTime === "evening"}
                         onChange={formik.handleChange}
                       />
-                      Evening
-                    </label>
-                    <label classname="mr-4">
+                      <label classname="mr-4">Evening</label>
+                    </div>
+                    <div className="flex gap-2">
                       <input
                         type="radio"
                         name="selectedTime"
@@ -189,8 +191,8 @@ function RequestQuoteForm() {
                         checked={formik.values.selectedTime === "lateNight"}
                         onChange={formik.handleChange}
                       />
-                      Late Night
-                    </label>
+                      <label classname="mr-4">Late Night</label>
+                    </div>
                   </div>
                   {formik.touched.selectedTime && formik.errors.selectedTime ? (
                     <div className="text-red-500 text-regular md:text-xl mt-1">
