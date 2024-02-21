@@ -74,7 +74,7 @@ const Navbar = () => {
                     key={link.name}
                     className={` ${
                       link.path === paths
-                        ? "py-6 px-4 rounded-xl text-lg font-semibold bg-sky-600 text-white"
+                        ? "py-6 px-4 text-lg font-semibold border-b-4 border-sky-600 text-neutral-900"
                         : "hover:text-sky-600  "
                     } `}
                   >
