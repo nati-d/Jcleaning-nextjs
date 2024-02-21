@@ -3,13 +3,15 @@ import * as React from "react";
 const servicesData = [
   {
     title: "Basic House Cleaning",
-    description:"Our comprehensive home cleaning service is crafted to meet the unique needs of your living space, with a particular emphasis on key areas such as the kitchen, living room, bathroom, and bedroom. Our meticulous approach involves skillful mopping, thorough vacuuming, detailed dusting, precise polishing, and attentive sweeping. Executed by our dedicated team, this thorough cleaning process ensures every corner is spotless, creating a welcoming and beautifully maintained home environment.In delivering this tailored service, we prioritize not only cleanliness but also the aesthetics and overall ambiance of your home. With a commitment to excellence, our team ensures that each cleaning task, from mopping to polishing, contributes to a spotless and inviting living space that reflects our dedication to meticulous care and maintenance.",
+    description:
+      "Our comprehensive home cleaning service is crafted to meet the unique needs of your living space, with a particular emphasis on key areas such as the kitchen, living room, bathroom, and bedroom. Our meticulous approach involves skillful mopping, thorough vacuuming, detailed dusting, precise polishing, and attentive sweeping. Executed by our dedicated team, this thorough cleaning process ensures every corner is spotless, creating a welcoming and beautifully maintained home environment.In delivering this tailored service, we prioritize not only cleanliness but also the aesthetics and overall ambiance of your home. With a commitment to excellence, our team ensures that each cleaning task, from mopping to polishing, contributes to a spotless and inviting living space that reflects our dedication to meticulous care and maintenance.",
     image:
       "https://images.pexels.com/photos/713297/pexels-photo-713297.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     title: "Deep Cleaning/Spring Cleaning",
-    description:"Our advanced cleaning service stands out with its meticulous methodology, going beyond standard practices to include intricate tasks such as handwashing cabinets, vacuuming upholstery, and deep-cleaning the oven. We address often overlooked areas like ceiling fan blades, ensuring a comprehensive approach to cleanliness. For clients who haven't utilized professional cleaning services in a while, we strongly recommend opting for a deep clean. This transformative service not only revitalizes the overall home environment but also provides a lasting and thorough cleanliness that extends beyond the surface, creating a rejuvenated and welcoming space.In every aspect of our advanced cleaning service, from polishing wood surfaces to tackling neglected corners, our dedicated team ensures a meticulous and revitalizing touch. By choosing a deep clean, clients can experience the full extent of our transformative cleaning process, making their living spaces not just clean but truly refreshed and inviting.",
+    description:
+      "Our advanced cleaning service stands out with its meticulous methodology, going beyond standard practices to include intricate tasks such as handwashing cabinets, vacuuming upholstery, and deep-cleaning the oven. We address often overlooked areas like ceiling fan blades, ensuring a comprehensive approach to cleanliness. For clients who haven't utilized professional cleaning services in a while, we strongly recommend opting for a deep clean. This transformative service not only revitalizes the overall home environment but also provides a lasting and thorough cleanliness that extends beyond the surface, creating a rejuvenated and welcoming space.In every aspect of our advanced cleaning service, from polishing wood surfaces to tackling neglected corners, our dedicated team ensures a meticulous and revitalizing touch. By choosing a deep clean, clients can experience the full extent of our transformative cleaning process, making their living spaces not just clean but truly refreshed and inviting.",
     image:
       "https://images.pexels.com/photos/4107278/pexels-photo-4107278.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
@@ -68,6 +70,11 @@ function ServiceCards() {
           }`}
         >
           <header className="flex flex-col w-full mb-10 md:mb-0 ">
+            <SEO
+              title={service.title}
+              description={service.description}
+              url="https://jcleaning.netlify.app/services"
+            />
             <div className="my-auto font-regular text-zinc-800 ">
               <h1 className="text-4xl mb-4">{service.title}</h1>
               <div className="text-base text-zinc-800 mb-6 text-justify">

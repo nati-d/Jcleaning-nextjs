@@ -4,6 +4,11 @@ import React from "react";
 const AboutUsPage = () => {
   return (
     <>
+      <SEO
+        title="About J Cleaning Solutions"
+        description="Learn about our mission, vision, and commitment to delivering exceptional residential and commercial cleaning services."
+        url="https://jcleaning.netlify.app/about"
+      />
       <ServiceHeader />
       <div className="flex w-full lg:max-w-[1500px] m-auto overflow-hidden flex-col gap-16 px-5 md:px-10">
         <div className="flex flex-col lg:flex-row gap-5">
@@ -93,9 +98,9 @@ const AboutUsPage = () => {
               </h1>
             </div>
             <p className="text-black text-base mb-10 mt-5 text-justify md:text-left">
-              At J Cleaning Solutions, our mission is to provide unparalleled cleaning
-              services tailored to the unique needs of our clients. We are
-              dedicated to delivering meticulous and eco-friendly solutions,
+              At J Cleaning Solutions, our mission is to provide unparalleled
+              cleaning services tailored to the unique needs of our clients. We
+              are dedicated to delivering meticulous and eco-friendly solutions,
               fostering a safe and hygienic space for our customers. Through
               continuous innovation, professional excellence, and a commitment
               to sustainability, we aim to exceed expectations and build lasting

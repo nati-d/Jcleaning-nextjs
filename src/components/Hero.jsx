@@ -1,11 +1,20 @@
 import * as React from "react";
-import Navbar from "./Navbar";
 import Image from "next/image";
 import Link from "next/link";
+import SEO from "./SEO";
 
 function Hero() {
   return (
     <section className=" px-4 w-full bg-slate-100  ">
+      <SEO
+        title="PROFESSIONAL RESIDENTIAL AND COMMERCIAL CLEANNG SERVICES"
+        description="We strive to protect the health and well-being of our clients,
+        hold ourselves accountable, build trust and loyalty, and promote
+        respect in order to provide exceptional workspaces that cater to
+        your environmental needs, nurture your team, and drive your
+        success."
+        url="https://jcleaning.netlify.app/"
+      />
       <header className="flex gap-5 flex-col lg:flex-row">
         <div className="flex flex-col w-full lg:w-[41%] ">
           <div className="flex flex-col items-center justify-center h-full mt-11 lg:mt-0 ">
