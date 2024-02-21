@@ -58,6 +58,8 @@ function ServiceComponent() {
             {services.map((service, index) => (
               <div key={index} className="flex py-5 flex-col w-full lg:w-1/4 hover:bg-sky-200 rounded-xl p-5">
                 <div className="flex flex-col grow tracking-wide max-md:mt-10 items-center ">
+                <SEO title = {section.title} description={section.description} url="https://jcleaning.netlify.app/"/>
+
                   <Image
                     loading="lazy"
                     src={service.imageSrc}
