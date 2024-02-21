@@ -1,5 +1,6 @@
 import * as React from "react";
 import SEO from "./SEO";
+import Image from "next/image";
 
 const servicesData = [
   {
@@ -84,11 +85,13 @@ function ServiceCards() {
             </div>
           </header>
           <div className="w-full overflow-hidden rounded-xl h-[400px]">
-            <img
+            <Image
               loading="lazy"
               src={service.image}
               alt=""
               className="w-full h-full object-cover"
+              width={450}
+              height={400}
             />
           </div>
         </div>
