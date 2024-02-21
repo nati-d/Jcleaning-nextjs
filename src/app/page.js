@@ -11,6 +11,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="w-full lg:max-w-[1500px] m-auto overflow-hidden">
+      {/* Seo Optimized */}
       <SEO
         title="J Cleaning Solutions - Expert Residential and Commercial Cleaning Services"
         description="Experience top-notch residential and commercial cleaning services with J Cleaning Solutions. Our mission is to deliver exceptional cleanliness, build lasting connections, and exceed your expectations."
