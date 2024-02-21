@@ -1,27 +1,31 @@
-import CompanyInfo from '@/components/CompanyInfo'
-import Hero from '@/components/Hero'
-import Navbar from '@/components/Navbar'
-import Package from '@/components/Package'
-import RequestQuoteForm from '@/components/RequestQuoteForm'
-import ServiceComponent from '@/components/ServiceComponent'
-import Team from '@/components/Team'
-import Testimonial from '@/components/Testimonials'
-import WorkWithUs from '@/components/WorkWithUs'
-import React from 'react'
+import CompanyInfo from "@/components/CompanyInfo";
+import Hero from "@/components/Hero";
+import RequestQuoteForm from "@/components/RequestQuoteForm";
+import SEO from "@/components/SEO";
+import ServiceComponent from "@/components/ServiceComponent";
+import Team from "@/components/Team";
+import Testimonial from "@/components/Testimonials";
+import WorkWithUs from "@/components/WorkWithUs";
+import React from "react";
 
 const page = () => {
   return (
-    <div className='w-full lg:max-w-[1500px] m-auto overflow-hidden'>
-      <Hero/>
-      <CompanyInfo/>
-      <ServiceComponent/>
-      <Team/>
+    <div className="w-full lg:max-w-[1500px] m-auto overflow-hidden">
+      <SEO
+        title="J Cleaning Solutions - Expert Residential and Commercial Cleaning Services"
+        description="Experience top-notch residential and commercial cleaning services with J Cleaning Solutions. Our mission is to deliver exceptional cleanliness, build lasting connections, and exceed your expectations."
+        url="https://jcleaning.netlify.app/"
+      />
+      <Hero />
+      <CompanyInfo />
+      <ServiceComponent />
+      <Team />
       {/* <Package/> */}
-      <RequestQuoteForm/>
-      <Testimonial/>
-      <WorkWithUs/>
+      <RequestQuoteForm />
+      <Testimonial />
+      <WorkWithUs />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

@@ -1,6 +1,5 @@
 
 import Image from "next/image";
-import SEO from "./SEO";
 
 const companyInfoSections = [
   {
@@ -43,7 +42,6 @@ function CompanyInfo() {
           <div className="flex flex-col grow">
             {companyInfoSections.map((section, index) => (
               <div key={index} className="flex flex-col pl-3.5 tracking-wide text-zinc-800">
-                <SEO title = {section.title} description={section.description} url="https://jcleaning.netlify.app/"/>
                 <h1 className="text-center lg:text-left text-4xl font-semibold leading-10">
                   {section.title}
                 </h1>
