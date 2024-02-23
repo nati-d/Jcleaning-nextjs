@@ -1,4 +1,5 @@
 import CompanyInfo from "@/components/CompanyInfo";
+import Faq from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import RequestQuoteForm from "@/components/RequestQuoteForm";
 import SEO from "@/components/SEO";
@@ -24,6 +25,7 @@ const page = () => {
       {/* <Package/> */}
       <RequestQuoteForm />
       <Testimonial />
+      <Faq/>
       <WorkWithUs />
     </div>
   );
