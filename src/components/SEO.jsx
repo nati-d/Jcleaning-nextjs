@@ -1,7 +1,7 @@
 // components/SEO.js
 
 import Head from "next/head";
-import { thumbnail } from '../../public/thumbnail.webp';
+import  thumbnail  from '../../public/thumbnail.webp';
 
 const SEO = ({ title, description, url }) => {
   const img = `${url}${thumbnail}`;
